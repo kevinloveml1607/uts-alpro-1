@@ -44,9 +44,3 @@ D.Aturan dan perhitungan&proses
    * Menolak nilai negatif pada input stok, barang masuk, barang terjual, stok minimum, atau harga beli.
 * Menolak jumlah barang terjual yang melebihi total ketersediaan stok (Stok Awal + Barang Masuk) agar program tidak mengalami kesalahan sistem.
 
-
-## 2. Tabel Input - Process - Output (IPO)
-
-| Input | Process (Proses & Perhitungan) | Output (Keluaran) |
-| :--- | :--- | :--- |
-| • Kode Barang<br>• Nama Barang<br>• Stok Awal<br>• Barang Masuk<br>• Barang Terjual<br>• Stok Minimum<br>• Harga Beli | 1. Validasi input agar tidak negatif dan penjualan tidak melebihi stok tersedia.<br>2. Hitung Stok Akhir = Stok Awal + Barang Masuk - Barang Terjual.<br>3. Tentukan status barang (Aman / Menipis / Habis) menggunakan percabangan.<br>4. Hitung jumlah unit pesanan (Restock) jika status Menipis / Habis.<br>5. Hitung biaya pemesanan (Jumlah Pesan * Harga Beli).<br>6. Akumulasi data untuk rekapitulasi akhir. | • Rincian stok akhir barang<br>• Status persediaan barang<br>• Jumlah unit yang harus dipesan<br>• Total biaya pemesanan<br>• Rekapitulasi keseluruhan (jumlah barang aman/menipis/habis, total unit terjual, total unit dipesan, total biaya, & penjualan tertinggi) |
